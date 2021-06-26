@@ -63,7 +63,7 @@ To get the instance segmentation prediction, run `python fluo2tcga_infer.py`. Re
 
 To evaluate the segmentation performance under AJI, pixel-f1, and Panoptic Quality (PQ), please run `python fluo2tcga_eva.py`. The overall results for all the testing images will be saved in a .xls file.
 
-
+To visualize the instance-level mask annotations/predictions, please run `python color_instance.py`.
 
 ## Citations (Bibtex)
 Please consider citing our papers in your publications if they are helpful to your research:

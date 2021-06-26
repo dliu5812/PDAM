@@ -11,7 +11,7 @@ from maskrcnn_benchmark.modeling.detector import build_detection_model
 
 def infer_fluo2tcga(wts_root, out_pred_root):
 
-    config_file = "../configs/uda_nuclei_seg/e2e_mask_rcnn_R_101_FPN_1x_gn.yaml"
+    config_file = "../configs/uda_nuclei_seg/e2e_mask_rcnn_R_101_FPN_1x_gn_fluo2tcga.yaml"
 
     # update the config options with the config file
     cfg.merge_from_file(config_file)
